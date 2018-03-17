@@ -13,6 +13,7 @@ theta = zeros(size(X, 2), 1);
 % ---------------------- Sample Solution ----------------------
 
 % The classic normal equation
+% https://imgur.com/8UG1bbL
 theta = pinv(X' * X) * X' * y
 
 % -------------------------------------------------------------
